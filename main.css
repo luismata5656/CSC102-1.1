@@ -1,0 +1,39 @@
+/*
+* declaration block:
+*
+* selelctor {
+*   prop: val;
+*  }
+*
+* */
+
+
+body {
+  background-color: #110044;
+  color: #bbb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+  height: 600px;
+  width: 200px;
+  float: left;
+  padding: 5px;
+  line-height: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-right: 200px;
+}
+
+#memeImage {
+  width: 75vw;
+}
+
+h1 {
+  text-align: center;
+}
