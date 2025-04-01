@@ -16,7 +16,7 @@ DOCTYPE is the first tag on the page and it tells the browser that this is an HT
 ## Screenshots:
 
 - Index.html:
-![index.png](index.png)
+![index.png](img/index.png)
 
 - Boards.html:
-![boards.png](boards.png)
+![boards.png](img/boards.png)
