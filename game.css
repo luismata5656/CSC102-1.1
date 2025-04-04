@@ -1,0 +1,28 @@
+body {
+  /* add a trnsition to make the interface a bit smoother whenever the bg-color changes*/
+  transition: background-color 0.5s ease;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+}
+
+/* class of each color option box */
+.color-box {
+  width: 100px;
+  height: 100px;
+  /* set the display to inline-block to make it a block element which allows me to set the width and height */
+  display: inline-block;
+  margin: 20px;
+  /* Change the cursor to a pointer when the user hovers over it */
+  cursor: pointer;
+  border: 3px solid #444;
+}
+
+/* class of the game interface */
+.text-box {
+  background-color: #eee;
+  display: inline-block;
+  padding: 0 50px;
+  /* round the corners of the text box */
+  border-radius: 20px;
+}
