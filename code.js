@@ -1,11 +1,4 @@
-<<<<<<< Updated upstream
-function updateText() {
-  document.getElementById("heading").innerHTML = "Javascript is awesome!"
-}
-=======
 // This is a simple color memory game where the user has to remember a color and select it from similar colors.
-//
-
 
 // setup game variables that will be used across the game
 let correctColor;
