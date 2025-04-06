@@ -7,6 +7,9 @@
 *
 * */
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rasa:ital,wght@0,300..700;1,300..700&family=Tillana:wght@400;500;600;700;800&display=swap');
+
 
 body {
   background-color: #110044;
@@ -14,7 +17,9 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
@@ -36,4 +41,34 @@ footer {
 
 h1 {
   text-align: center;
+  font-weight: 900;
+  letter-spacing: .25em;
+  border-bottom: solid;
+}
+
+h2 {
+  font-family: "Tillana", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+  padding: 5px;
 }

@@ -21,6 +21,7 @@ function displayResult(result) {
   if (result) {
     // If true, display that the input is a palindrome
     resultElement.innerHTML = "That is a palindrome!";
+    // Add the input to the history
   } else {
     // If false, display that the input is not a palindrome
     resultElement.innerHTML = "That is not a palindrome.";
@@ -35,4 +36,13 @@ function getInput() {
   const result = isPalindrome(input);
   // Display the result
   displayResult(result);
+  // Add the input to the history if the result is true
+  if (result) {
+    const history = document.getElementById("history");
+    const li = document.createElement("li");
+    li.appendChild(document.createTextNode(input));
+    history.appendChild(li);
+  }
+  // Clear the input field
+  document.forms["palindromeForm"]["inputText"].value = "";
 }
