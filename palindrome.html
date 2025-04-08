@@ -1,0 +1,31 @@
+<!-- Luis Mata Jurado, 2025-04-04 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSC102 String Palindrome Checker</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="strings.js"></script>
+</head>
+
+<body>
+
+  <h1>Welcome to my Palindrome Checker</h1>
+  <form id="palindromeForm" onSubmit="return getInput()" action="javascript:void(0);">
+    <!-- palindrome input field -->
+    <label for="inputString">Enter a string:</label>
+    <input type="text" id="inputText" placeholder="Enter a string">
+    <!-- This button submits the form which will run the function to check the palindrome-->
+    <button type="submit" id="checkButton">Check</button>
+  </form>
+
+  <!-- The result of the palindrome check will be displayed here -->
+  <p id="result"></p>
+  <!-- The history of the palindrome checks will be displayed here -->
+  <h2>History</h2>
+  <ul id="history">
+  </ul>
+
+</body>
+
+</html>

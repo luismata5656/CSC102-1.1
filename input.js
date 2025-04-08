@@ -6,10 +6,19 @@ function checkInput(name, zipcode) {
   // Define the correct name and zipcode
   const correctNameLen = 20;
   const correctZipcodelen = 5;
-  // Check if the name and zipcode are correct
-  if (name.length <= correctNameLen && zipcode.length == correctZipcodelen) {
-    return true;
+  // Check if the name is less than or equal to 20 characters
+  if (name.length <= correctNameLen) {
+    // Check if the zipcode is equal to 5 characters, this is nested so that the program will stop before checking the zipcode if the name is too long
+    if (zipcode.length === correctZipcodelen) {
+      return true;
+    } else {
+      // If the zipcode is not equal to 5 characters, return false
+      alert("Zipcode must be 5 characters");
+      return false;
+    }
   } else {
+    // if the name is greater than 20 characters, check if the zipcode is equal to 5 characters
+    alert("Name must be less than or equal to 20 characters");
     return false;
   }
 }
@@ -21,7 +30,7 @@ function displayResult(result) {
   // Check if the result is true or false
   if (result) {
     // If true, display that the input is correct
-    resultElement.innerHTML = "Correct!";
+    resultElement.innerHTML = "Correct! Here is the secret code: 12345";
   } else {
     // If false, display that the input is not correct
     resultElement.innerHTML = "Wrong input, please try again.";
