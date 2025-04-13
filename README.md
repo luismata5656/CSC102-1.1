@@ -1,22 +1,9 @@
 # CSC102-1.1
 
-DOCTYPE is the first tag on the page and it tells the browser that this is an HTML5 page
+## Week 3.1: Palindrome Checker
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-    </body>
-</html>
-```
+This assignment creates `strings.html` and `strings.js`. It is a simple palindrome checker that checks if a given string is a palindrome.
 
-## Screenshots:
+## Demo
 
-- Index.html:
-![index.png](img/index.png)
-
-- Boards.html:
-![boards.png](img/boards.png)
+![Demo](img/demo.gif)
