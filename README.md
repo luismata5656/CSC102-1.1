@@ -1,17 +1,8 @@
 # CSC102-1.1
 
-DOCTYPE is the first tag on the page and it tells the browser that this is an HTML5 page
+## Week 2.1: Using CSS
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-    </body>
-</html>
-```
+Created a `main.css` file to create a general style for the website. The CSS file is linked to the HTML files.
 
 ## Screenshots:
 
