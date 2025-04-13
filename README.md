@@ -1,22 +1,11 @@
 # CSC102-1.1
 
-DOCTYPE is the first tag on the page and it tells the browser that this is an HTML5 page
+## Week 2.2: Using JS
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-    </body>
-</html>
-```
+Created a simple color guessing game in `game.html`. I utilizzed the background color of the body element in order to show the color, then used `setTimout()` in order to change the color after x seconds. The user has to guess the color and type it in the input field. If the user guesses correctly, a message is displayed saying "Correct!". If the user guesses incorrectly, a message is displayed saying "Incorrect!".
 
-## Screenshots:
+## Demo
 
-- Index.html:
-![index.png](img/index.png)
+![Demo](img/demo.gif)
 
-- Boards.html:
-![boards.png](img/boards.png)
+

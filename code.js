@@ -110,4 +110,3 @@ function showColorOptions(baseRGB) {
 
 // Start the game
 showFlashColor();
->>>>>>> Stashed changes
