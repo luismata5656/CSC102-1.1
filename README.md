@@ -1,8 +1,8 @@
 # CSC102-1.1
 
-## Week 3.2: User Input
+## Week 4.1: Event Driven Programming
 
-This assignment changes the content of `strings.html` in order to create a basic form that takes in a first name, last name, and a zipcode. If the combined name is less than 20 characters and the zipcode is a 5-digit number, there will be a secret message shown. Otherwise, an error message will be shown.
+This week we learned about event driven programming in js, I added a `bounce.js` file which contains the logic for a simple bouncing meme, it acts just the dvd logo and if you wait long enough it might even bounce off the corners of the screen :)
 
 ## Demo
 
