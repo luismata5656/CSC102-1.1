@@ -10,7 +10,27 @@
 
 <body>
 
-  <h1>Welcome to my Input Validator</h1>
+  <nav id="nav" hidden>
+    <ul>
+      <h2>Navigation</h2>
+      <li><a href="boards.html">Boards</a></li>
+      <li><a href="game.html">Game</a></li>
+      <li><a href="palindrome.html">Palindrome Checker</a></li>
+      <li><a href="strings.html">Strings</a></li>
+      <li><a href="table.html">Table</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Welcome to my Input Validator</h1>
+  </header>
+
+  <button id="navToggle">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white" fill-opacity="0.56" />
+    </svg>
+  </button>
+
+
   <form id="inputForm" onSubmit="return getInput()" action="javascript:void(0);">
     <!-- this form will take in a first and last name in serperat fields, a zip code, and vaildate the input -->
     <label for="firstName">First Name:</label>
@@ -35,6 +55,7 @@
     Your browser does not support the audio element.
   </audio>
 
+  <script src="nav.js"></script>
 </body>
 
 </html>

@@ -89,11 +89,15 @@ function showColorOptions(baseRGB) {
         document.getElementById("result").innerHTML = "Correct!";
         document.body.style.backgroundColor = "#55ff55";
         score++
+        // disable the options
+        optionsContainer.style.display = "none";
       } else {
         // lose condition, reset score
         score = 0;
         document.getElementById("result").innerHTML = "Nope!";
         document.body.style.backgroundColor = "#ff5555";
+        // disable the options
+        optionsContainer.style.display = "none";
       }
       // update the score
       document.getElementById("score").innerHTML = score;
@@ -110,4 +114,3 @@ function showColorOptions(baseRGB) {
 
 // Start the game
 showFlashColor();
->>>>>>> Stashed changes

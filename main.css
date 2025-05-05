@@ -23,14 +23,86 @@ body {
 }
 
 nav {
-  height: 600px;
+  height: 400px;
   width: 200px;
-  float: left;
   padding: 5px;
   line-height: 30px;
+  display: none;
+  background-color: #110044;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  color: #bbb;
+
+  padding: 0;
+}
+
+nav li {
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Rasa', sans-serif;
+  font-weight: 400;
+  color: #bbb;
+
+  font-style: normal;
+}
+
+#navToggle {
+  background: none;
+  border: none;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    top: 0;
+    flex-direction: column;
+  }
+}
+
+
+table {
+  width: 75%;
+  margin: 20px;
+  background-color: #110044;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background-color: #110044;
+  padding: 40px;
+  color: #bbb;
+  text-align: center;
+  border-radius: 12px;
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222244;
+  color: #bbb;
+  padding: 10px;
   text-align: center;
   margin-right: 200px;
 }
